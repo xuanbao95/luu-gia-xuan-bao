@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fancy Form</title>
+
+    <!-- You may add more stuff here -->
+<!--    <link href="style.css" rel="stylesheet" />-->
+</head>
+
+<body>
+
+<!-- You may reorganise the whole HTML, as long as your form achieves the same effect. -->
+<section>
+    <h5>Three way sum n</h5>
+    <label for="input-amount-a">Way 1</label>
+    <input type="number" id="input-amount-a" onchange="sum_to_n_a(value)" placeholder="insert a number"/>
+    <p>Output: <span id="way-1"></span></p>
+    <hr/>
+    <label for="input-amount-a">Way 2</label>
+    <input type="number" id="input-amount-b" onchange="sum_to_n_b(value)" placeholder="insert a number"/>
+    <p>Output: <span id="way-2"></span></p>
+    <hr/>
+    <label for="input-amount-a">Way 3</label>
+    <input type="number" id="input-amount-c" onchange="sum_to_n_c(value)" placeholder="insert a number"/>
+    <p>Output: <span id="way-3"></span></p>
+
+</section>
+<script src="index.js"></script>
+</body>
+
+</html>
